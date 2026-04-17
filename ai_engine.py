@@ -11,8 +11,8 @@ label_encoder = joblib.load('label_encoder.pkl')
 description_df = pd.read_csv('symptom_Description.csv')
 precaution_df = pd.read_csv('symptom_precaution.csv')
 
-# Groq Setup (Yahan apni key dalein)
-client = Groq(api_key="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")
+# Groq Setup (Enter your API Key here)
+client = Groq(api_key="gsk_ ----")
 
 def get_disease_logic(disease_name):
     disease_name = disease_name.strip()
