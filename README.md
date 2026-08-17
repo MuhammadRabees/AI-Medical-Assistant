@@ -1,7 +1,5 @@
 # AI-Medical-Assistant
 
-> ** Live Demo:** [Experience the App on Hugging Face Spaces](https://mrabees-smart-medical-assistant.hf.space)
-
 ## Project Overview
 The **Smart Medical Symptom Assistant** is an AI-powered diagnostic tool. It is designed to analyze multiple user-inputted symptoms and predict potential medical conditions using a trained Machine Learning model. The system not only predicts diseases but also provides the urgency level, precautions, and the recommended physician type to guide the user.
 
@@ -18,7 +16,6 @@ The **Smart Medical Symptom Assistant** is an AI-powered diagnostic tool. It is 
 * **Machine Learning:** Scikit-Learn (Random Forest Model)
 * **Generative AI:** Llama-3 (via API)
 * **Data Processing:** Pandas, NumPy
-* **Deployment:** Hugging Face Spaces
 
 ## Repository Structure
 * `app.py`: Main Streamlit application file handling the UI.
